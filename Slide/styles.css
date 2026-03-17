@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: #000;
+    animation: slideup 1s ease-in;
+}
+
+@keyframes slideup {
+    from{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+
+    }
+}
